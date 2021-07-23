@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 100%;
+    font-family: 'Indie Flower', cursive;
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+  }
+  #btn, #input {
+    border-radius: 30px;
+    border: solid 1px black;
+    outline:none;
+    font-family: 'Indie Flower', cursive;
+    height: 40px;
+  }
+  #input{
+      padding-left: 30px;
+      outline:none;
+      font-size: 30px;
+  }
+
+  #btn{
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  #btn:active{
+      background-color: lightgrey;
+  }
+
+  .main, .temp{
+      font-size: 70px;
+  }
+
+#str{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.itemCity{
+    margin: 5px;
+    padding: 25px;
+    border: solid 2px green;
+    border-radius: 20px;
+    background: rgb(255, 240, 248);
+    width: 300px;
+
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.log{
+    margin-left: 20px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: rgb(253, 194, 226);
+}
+
+sup, .description{
+    font-size:30px;
+}
+
+figure{
+    display: flex;
+}
+
+.description{
+    text-align: end;
+    padding-left: 30px;
+}

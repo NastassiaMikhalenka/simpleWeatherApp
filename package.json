@@ -1,0 +1,24 @@
+{
+  "name": "simpleWeathereApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://NastassiaMikhalenka.github.io/simpleWeatherApp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastassiaMikhalenka/simpleWeatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastassiaMikhalenka/simpleWeatherApp/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

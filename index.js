@@ -20,7 +20,7 @@ const api = {
   
   function displayResults(response){
     const { main, name, sys, weather } = response
-    localStorage.setItem('city', JSON.stringify(response))
+    // localStorage.setItem('city', JSON.stringify(response))
     const tempCity = Math.round((response.main.temp)-273.15)
     const icon = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0]["icon"]}.svg`;
   
@@ -38,4 +38,3 @@ const api = {
     li.innerHTML = cityItem;
     list.appendChild(li);
   }
-  

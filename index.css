@@ -1,21 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Georama', sans-serif;
 }
 body {
     max-width: 100%;
-    font-family: 'Indie Flower', cursive;
     max-width: 1440px;
     width: 80%;
     margin: auto;
+    height: 100vh;
+    margin: 0;
+    background: url(Banner.png) center no-repeat;
+    background-size: 100% 100%;
   }
+
   #btn, #input {
     border-radius: 30px;
     border: solid 1px black;
     outline:none;
-    font-family: 'Indie Flower', cursive;
     height: 40px;
   }
+
   #input{
       padding-left: 30px;
       outline:none;
@@ -44,11 +49,12 @@ body {
 .itemCity{
     margin: 5px;
     padding: 25px;
-    border: solid 2px green;
-    border-radius: 20px;
-    background: rgb(255, 240, 248);
+    border-radius: 40px;
+    background: rgba(242, 141, 255, 0.4);
+    border: 2px solid white;
+    box-shadow: 0px 0px 30px 13px rgba(255, 255, 255, 0.36) inset;
     width: 300px;
-
+    color: white;
 }
 
 .city{

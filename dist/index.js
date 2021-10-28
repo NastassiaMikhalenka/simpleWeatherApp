@@ -7,13 +7,13 @@ const api = {
   btn.addEventListener('click', inputValue);
   
   function inputValue() {
-    let cityTarget = document.getElementById('input').value;
-    getResults(cityTarget)
+    let cityTargetValueValueValue = document.getElementById('input').value;
+    getResults(cityTargetValueValueValue)
     document.getElementById('input').value = ""
   }
   
-  function getResults (cityTarget) {
-    fetch(`${api.base}weather?q=${cityTarget}&appid=${api.key}`)
+  function getResults (cityTargetValueValueValue) {
+    fetch(`${api.base}weather?q=${cityTargetValueValueValue}&appid=${api.key}`)
     .then(response => response.json())
     .then(displayResults)
   }
